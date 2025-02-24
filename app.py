@@ -6,11 +6,11 @@ from PIL import Image
 from io import BytesIO
 
 # Initialize the OpenAI and Gemini clients
-client = OpenAI(api_key="sk-proj-MeAjSiN9dKRNuD8EgCuuT3BlbkFJpD1MFY3PJuOiHc42FQ1B")
+client = OpenAI(api_key="YOUR API KEY")
 
 model = Gemini(
     model_name="models/gemini-1.5-flash-latest",
-    api_key="AIzaSyDej1alzYxFwPNNd0h08pJAlyKOGeg4zs0",
+    api_key="YOUR API KEY",
 )
 
 # Set the page configuration
